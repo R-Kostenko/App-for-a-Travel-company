@@ -20,10 +20,10 @@ namespace TravelAgency_temp.Classes
         // SMTP server settings.
         static string host = "smtp.gmail.com";
         static int smtpPort = 587;
-        static string password = "mypdrjjwiaiwrmru";    // Replace with your actual email password.
+        static string password = "/*Your app pasword for gmail account*/";    // Replace with your actual email password.
 
         static string name = "Wanderlust Explorers";    // Display name for the sender's email.
-        static string fromEmail = "wanderlustexplorersservice@gmail.com";   // Replace with your actual email address.
+        static string fromEmail = "wanderlust***********@gmail.com";   // Replace with your actual email address.
         static string toEmail = "";
         static string subject = "";
         static string body = "";
