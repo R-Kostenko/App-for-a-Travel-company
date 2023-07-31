@@ -13,7 +13,7 @@ namespace TravelAgency_temp.Classes
         private static DataBaseConnection instance; // Implementation of the "Singletone" pattern
 
         // SqlConnection object to establish a connection with the database.
-        SqlConnection sqlConnection = new SqlConnection(@"Data Source=desktop-om8avmm\mssqlserver01;Initial Catalog=DataTrevApp;Integrated Security=True");
+        SqlConnection sqlConnection = new SqlConnection(@"Data Source=/*Name of your local server*/;Initial Catalog=DataTrevApp;Integrated Security=True");
         // Alternative connection strings for different server configurations.
         // For local server: SqlConnection sqlConnection = new SqlConnection(@"Data Source=***.***.*.***,1433;Initial Catalog=DataTrevApp;Integrated Security=True");
         // For remote server: SqlConnection sqlConnection = new SqlConnection(@"Data Source=***.***.***.***,1433;Initial Catalog=DataTrevApp;Integrated Security=True");
