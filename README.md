@@ -1,27 +1,36 @@
 # Application for a Travel company
-Application for a travel company, created in Windows Froms using Microsoft SQL Server Management 18. Fully commented, without installer.
+Application for a travel company, created in **Windows Froms** using **Microsoft SQL Server Management 18**. **Fully commented**, without installer.
 
 ## Description
-This is my first relatively large-scale pet project, which I made in a short period of time as a result of an assignment given by universities for a summer internship. I did it in order to improve my skills in using C# language, Windows Forms and Microsoft SQL Server database. The application is made as a desktop application for viewing and ordering tours, as well as administering tours and users. Unfortunately, at least for now, I have not implemented remote access to my database, so the application has no installer - you will have to have a code editor (e.g. Microsoft Visual Studio) and a local database (e.g. Microsoft SQL Server Management 18). Instructions for configuring the application to work on your computer will of course be provided.
+This is a desktop application for a travel company, developed using **Windows Forms** and **Microsoft SQL Server Management 18**. The application allows users to view and order tours, as well as provides administration functionalities for managing tours and users. The project is **fully commented** and does not come with an installer.
 
-## Functionality in brief
-- Registration and authorization system (regular expressions are used);
-- implementation of "Chain of Responsibility" pattern for user and tour data input checks;
-- a class for password encryption based on MD5 algorithm;
-- implementation of the "Singleton" pattern for the class of connection to the database;
-- realization of user roles: regular user and administrator;
-- viewing profile and changing user data;
-- creation of a class and event handlers for it to view the tour;
-- realization of class of sending e-mails to confirm user actions (registration and ordering/cancellation of tour), notify user (ordering/cancellation of tour) and communication with administration using Gmail SMTP server;
-- implementation of tour search;
-- ordering tours and modifying them by the administrator (creation also);
-- viewing of ordered tours with the possibility of canceling them;
+## Project Overview
+This application was developed as my first relatively large-scale **pet project** in a short period of time for a summer internship assignment. The main objectives of this project were to enhance my skills in **C# programming**, **Windows Forms**, and **Microsoft SQL Server database management**. The application consists of features for user registration and authentication, input validation using the **"Chain of Responsibility" pattern**, password encryption based on the **MD5 algorithm**, and implementation of the **"Singleton" pattern** for database connection.
 
-## Preparing the program for use
-Here is a brief summary of what you will need to do to make the program work on your device fully, I used Visual Studio 2022 and Miscrosoft SQL Server Management 18. In the README files inside the folders will be step-by-step instructions for configuring the program to work. In the future it is planned to implement remote work with my database and SMTP server, after that I will create a program installer (then this section will be replaced by a brief description of the program installation).
+## Key Features
+- **Registration and authorization system** with the use of regular expressions for data validation.
+- Implementation of the **"Chain of Responsibility" pattern** for validating user and tour data.
+- Password encryption using the **MD5 algorithm** for enhanced security.
+- **User roles**: regular user and administrator.
+- **Profile viewing** and user data modification.
+- Custom class and event handlers for **viewing tour details**.
+- **E-mail functionality** for user confirmation (registration and tour ordering/cancellation), user notification (tour ordering/cancellation), and communication with the administration using **Gmail SMTP server**.
+- Advanced **tour search** capabilities.
+- Tour ordering, modification, and creation by the administrator.
+- **View ordered tours** with the ability to cancel them.
 
-1. You need to have an installed code compiler, SQL server and e-mail (administration mail from which you will send letters to users and to which you will receive messages from them).
-1. Download the folder TravelAgency_temp
-1. You will need to change the database connection string (README)
-1. Also, you will need to change the data in Sender class for sending letters to e-mail (README).
-1. After all these changes you will be able to fully use the program
+## Getting Started
+To run the program on your device, follow these steps:
+
+1. Ensure you have a **code compiler**, **SQL server**, and an **e-mail account** set up (used for administration and user communication).
+1. **Download the folder 'TravelAgency_temp'**.
+1. Modify the **database connection string** in 'DataBaseConnection' class, details in the **README** file located inside the folder.
+1. Update the data in the 'Sender' class to match the e-mail settings in the **README** file.
+1. After making these changes, you can fully utilize the program's functionalities.
+
+## Future Enhancements
+Currently, the application requires local access to the database and an SMTP server for e-mail communication. In the future, I plan to implement remote database access and SMTP server integration. Once these enhancements are in place, I will create a program installer for easier deployment.
+
+For detailed instructions on configuring the program and running it on your device, refer to the README files located within the project folders.
+
+Feel free to explore the code, use it for learning purposes, and provide any feedback or suggestions for improvement. **Happy coding!**
