@@ -24,8 +24,8 @@ To run the program on your device, follow these steps:
 
 1. Ensure you have a **code compiler**, **SQL server**, and an **e-mail account** set up (used for administration and user communication).
 1. **Download the folder 'TravelAgency_temp'**.
-1. Modify the **database connection string** in 'DataBaseConnection' class, details in the **README** file located inside the folder.
-1. Update the data in the 'Sender' class to match the e-mail settings in the **README** file.
+1. Modify the **database connection string** in 'DataBaseConnection' class, details in the [**README**](TravelAgency_temp/Classes/README(Database_creation).md) file located inside the folder.
+1. Update the data in the 'Sender' class to match the e-mail settings in the [**README**](TravelAgency_temp/Classes/README(Deployment).md#sendercs) file.
 1. After making these changes, you can fully utilize the program's functionalities.
 
 ## Future Enhancements
@@ -33,4 +33,6 @@ Currently, the application requires local access to the database and an SMTP ser
 
 For detailed instructions on configuring the program and running it on your device, refer to the README files located within the project folders.
 
-Feel free to explore the code, use it for learning purposes, and provide any feedback or suggestions for improvement. **Happy coding!**
+Feel free to explore the code, use it for learning purposes, and provide any feedback or suggestions for improvement. 
+
+**Happy coding!**
