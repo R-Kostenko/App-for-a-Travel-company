@@ -18,3 +18,10 @@ This is my first relatively large-scale pet project, which I made in a short per
 - viewing of ordered tours with the possibility of canceling them;
 
 ## Preparing the program for use
+Here is a brief summary of what you will need to do to make the program work on your device fully, I used Visual Studio 2022 and Miscrosoft SQL Server Management 18. In the README files inside the folders will be step-by-step instructions for configuring the program to work. In the future it is planned to implement remote work with my database and SMTP server, after that I will create a program installer (then this section will be replaced by a brief description of the program installation).
+
+1. You need to have an installed code compiler, SQL server and e-mail (administration mail from which you will send letters to users and to which you will receive messages from them).
+1. Download the folder TravelAgency_temp
+1. You will need to change the database connection string (README)
+1. Also, you will need to change the data in Sender class for sending letters to e-mail (README).
+1. After all these changes you will be able to fully use the program
