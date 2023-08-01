@@ -45,4 +45,4 @@ create table orders (
 Only after executing the first line you can execute the other lines (if they are not executed on the first try - try again :smile:)
 
 ## Next step
-Congratulations, you're about to finish deploying the program. To continue, please follow this link to the latest [**README**](TravelAgency_temp/Classes/README(Deployment).md).
+Congratulations, you're about to finish deploying the program. To continue, please follow this link to the latest [**README**](README(Deployment).md).
