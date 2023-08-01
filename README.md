@@ -4,11 +4,11 @@ Application for a travel company, created in Windows Froms using Microsoft SQL S
 ## Description
 This is my first relatively large-scale pet project, which I made in a short period of time as a result of an assignment given by universities for a summer internship. I did it in order to improve my skills in using C# language, Windows Forms and Microsoft SQL Server database. The application is made as a desktop application for viewing and ordering tours, as well as administering tours and users. Unfortunately, at least for now, I have not implemented remote access to my database, so the application has no installer - you will have to have a code editor (e.g. Microsoft Visual Studio) and a local database (e.g. Microsoft SQL Server Management 18). Instructions for configuring the application to work on your computer will of course be provided.
 
-## Functionality in brief:
+## Functionality in brief
 - Registration and authorization system (regular expressions are used);
 - implementation of "Chain of Responsibility" pattern for user and tour data input checks;
 - a class for password encryption based on MD5 algorithm;
-- implementation of the " Singleton" pattern for the class of connection to the database;
+- implementation of the "Singleton" pattern for the class of connection to the database;
 - realization of user roles: regular user and administrator;
 - viewing profile and changing user data;
 - creation of a class and event handlers for it to view the tour;
@@ -16,3 +16,5 @@ This is my first relatively large-scale pet project, which I made in a short per
 - implementation of tour search;
 - ordering tours and modifying them by the administrator (creation also);
 - viewing of ordered tours with the possibility of canceling them;
+
+## Preparing the program for use
