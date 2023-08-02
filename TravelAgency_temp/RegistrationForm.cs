@@ -80,7 +80,7 @@ namespace TravelAgency_temp
             textBox_FirstPassword.MaxLength = 256;
             textBox_SecondPassword.MaxLength = 256;
             textBox_Email.MaxLength = 50;
-            textBox_PhoneNumber.MaxLength = 13;
+            textBox_PhoneNumber.MaxLength = 13;    // Change this number if your phone number is longer then 13 characters
 
             resetPanelsColors();    // Set default colors for input panels.
 
