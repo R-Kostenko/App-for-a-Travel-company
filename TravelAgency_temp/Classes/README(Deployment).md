@@ -28,4 +28,27 @@ Where to get `password`:
 
 Go to your google account **settings** -> Type **"App passwords"** in the settings search -> Select app: Other (Custom name) -> And **enter here the name** of the program (for example, I just named it "TravelAgency_temp") -> You will get a **16-digit password** that you need to enter into the `"/*Your app pasword for gmail account*/"`.
 
-**Now you are ready to launch the application!**
+## InputCheckers.cs(Optional)
+Input checking for profile and tour data is performed in **Ukrainian language** and for **Ukrainian numbers**. If you want it to be performed in English and for other numbers you will have to modify a few lines in the 'InputCheckers.cs' class.
+Changes should be made in such classes of the 'InputCheckers.cs' file: `CheckName`, `CheckPhone`, `CheckTourNameOrSubject` (Optional), `CheckDescriptionOrBody` (Optional). Everything that needs to be changed will be in the `Check()` methods in the **if** construct condition.
+
+`CheckName`:
+
+Replace `!Regex.IsMatch(textCheck, "[A-Za-z]+$")` with `!Regex.IsMatch(textCheck, "[A-Za-z]+$")`;
+
+`CheckPhone`:
+
+Replace `!Regex.IsMatch(textCheck, "^[+][3][8][0][0-9]{7,13}$")` (where 13 - max lenth of phone number, including '+380') with the telephone code of your country, for example `!Regex.IsMatch(textCheck, "^[+][1][0-9]{7,12}$")` (for USA phone number (+1 555-123-4567)).
+**!!!** If your phone number is longer than 13 characters:
+Make changes in the `RegistrationForm.cs` file -> in the `RegistrationForm_Load` method.
+
+`CheckTourNameOrSubject` (Optional):
+
+This check resolves the English alphabet as well. If you want to remove the possibility to use the Ukrainian alphabet, replace this this part `А-Яа-яA-Za-zіїІЇ` with `A-Za-z`;
+
+`CheckDescriptionOrBody` (Optional):
+
+This check resolves the English alphabet as well. If you want to remove the possibility to use the Ukrainian alphabet, replace this this part `А-Яа-яA-Za-zіїІЇ` with `A-Za-z`;
+
+## Now you are ready to launch the application!
+A little [**help**](/../main/TravelAgency_temp/README(After_starting_the_program).md) after starting the program.
