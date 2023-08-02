@@ -132,7 +132,7 @@ namespace TravelAgency_temp.Classes
 
         public override void Check()
         {
-            if (!Regex.IsMatch(textCheck, "^[+][3][8][0][0-9]{7,14}$"))
+            if (!Regex.IsMatch(textCheck, "^[+][3][8][0][0-9]{7,13}$"))
             {
                 panel.BackColor = Color.Red;
             }
