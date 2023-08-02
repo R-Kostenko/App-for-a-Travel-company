@@ -4,6 +4,8 @@ Application for a travel company, created in **Windows Froms** using **Microsoft
 ## Description
 This is a desktop application for a travel company, developed using **Windows Forms** and **Microsoft SQL Server Management 18**. The application allows users to view and order tours, as well as provides administration functionalities for managing tours and users. The project is **fully commented** and does not come with an installer.
 
+![Program](TravelAgency_temp/Pictures/MainForm(after_login).JPG)
+
 ## Project Overview
 This application was developed as my first relatively large-scale **pet project** in a short period of time for a summer internship assignment. The main objectives of this project were to enhance my skills in **C# programming**, **Windows Forms**, and **Microsoft SQL Server database management**. The application consists of features for user registration and authentication, input validation using the **"Chain of Responsibility" pattern**, password encryption based on the **MD5 algorithm**, and implementation of the **"Singleton" pattern** for database connection.
 
