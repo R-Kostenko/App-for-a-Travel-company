@@ -42,7 +42,9 @@ create table orders (
 )
 ```
 **FIRST OF ALL** To create a database, execute the first line: `create database DataTrevApp`.
-Only after executing the first line you can execute the other lines (if they are not executed on the first try - try again :smile:)
+Only after executing the first line you can execute the other lines (if they are not executed on the first try - try again :smile:).
+
+**!!!** If your **phone number is longer then 13 characters**, change this line of code: `user_phone_number nchar(13) not null,`.
 
 ## Next step
 Congratulations, you're about to finish deploying the program. To continue, please follow this link to the latest [**README**](README(Deployment).md).
