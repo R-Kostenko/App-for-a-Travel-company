@@ -66,4 +66,4 @@ This is how the form should look like for regular user or guest:
 Here you can search, browse and book tours. You can also view the booked tours and cancel them in your drop-down list.
 
 
-**Enjoy using and exploring the proagram!**
+**Enjoy using and exploring the program!**
